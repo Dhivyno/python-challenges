@@ -12,5 +12,4 @@ class Rectangle:
         self.corner.y += dy
 
     def flip(self):
-        """ Swap the width and the height of this rectangle """
         self.width, self.height = self.height, self.width
